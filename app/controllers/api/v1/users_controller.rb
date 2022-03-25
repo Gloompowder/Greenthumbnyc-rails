@@ -46,3 +46,4 @@ class Api::V1::UsersController < ApplicationController
     def find_user
         @fact = User.find(params[:id])
     end
+end

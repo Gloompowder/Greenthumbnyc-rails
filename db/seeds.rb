@@ -46,7 +46,8 @@ results.body.each do |result|
             communityboard: "#{garden_hash["communityboard"]}", congressionaldist: "#{garden_hash["congressionaldist"]}", 
             coundist: "#{garden_hash["coundist"]}", juris: "#{garden_hash["juris"]}", parksid: "#{garden_hash["parksid"]}", 
             policeprecinct: "#{garden_hash["policeprecinct"]}", status: "#{garden_hash["status"]}", statesenatedist: "#{garden_hash["statesenatedist"]}", zipcode: "#{garden_hash["zipcode"]}",
-            openhrssa: "#{garden_hash["openhrssa"]}", openhrssu: "#{garden_hash["openhrssu"]}")
+            openhrssa: "#{garden_hash["openhrssa"]}", openhrssu: "#{garden_hash["openhrssu"]}", openhrstu: "#{garden_hash["openhrstu"]}", 
+            openhrsth: "#{garden_hash["openhrsth"]}", openhrsf: "#{garden_hash["openhrsf"]}", openhrsm: "#{garden_hash["openhrsm"]}", openhrsw: "#{garden_hash["openhrsw"]}", location: "#{garden_hash["multipolygon"].to_json}")
         garden_hash = {}
         end
     end

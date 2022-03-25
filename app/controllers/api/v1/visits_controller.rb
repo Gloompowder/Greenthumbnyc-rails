@@ -47,3 +47,4 @@ class Api::V1::VisitsController < ApplicationController
     def find_fact
         @fact = Fact.find(params[:id])
     end
+end

@@ -5,6 +5,7 @@ class Api::V1::GardensController < ApplicationController
         @gardens = Garden.all
         render json: @gardens
     end
+    
     def show 
         render json: @garden
     end

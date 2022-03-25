@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_12_03_063212) do
+ActiveRecord::Schema.define(version: 2022_01_13_052003) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,6 +32,12 @@ ActiveRecord::Schema.define(version: 2021_12_03_063212) do
     t.string "openhrssu"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "openhrsm"
+    t.string "openhrsth"
+    t.string "openhrstu"
+    t.string "openhrsw"
+    t.string "openhrsf"
+    t.string "location"
   end
 
   create_table "users", force: :cascade do |t|
